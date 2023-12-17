@@ -7,7 +7,7 @@ package ru.hh.school.employers;
  */
 public class StatisticsDto {
 
-  private final static String REPORT_TEMPLATE = "total vacancies=%d, min=%d, max=%d";
+  private static final String REPORT_TEMPLATE = "total vacancies=%d, min=%d, max=%d";
 
   private final Long vacancyCount;
   private final Integer minSalary;
